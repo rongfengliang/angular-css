@@ -1,0 +1,145 @@
+repo_name: rongfengliang/angular-css
+report_id: d26334a2c7ae6394a0a0cc95153ec07f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:02:32+00:00'
+requested_by: alexcastillo
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rongfengliang/angular-css
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rongfengliang/angular-css
+  detection_source: Repo Metadata
+- name: Grunt
+  description: The JavaScript Task Runner
+  website_url: http://gruntjs.com/
+  version: 0.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: alexandercastillo
+  last_updated_on: 2014-12-27 02:22:48.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: alexandercastillo
+  last_updated_on: 2014-12-27 02:22:48.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Alex Castillo
+  last_updated_on: 2014-12-26 15:26:40.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 0.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: alexandercastillo
+  last_updated_on: 2014-12-27 02:22:48.000000000 Z
+- name: grunt-contrib-uglify
+  description: Minify JavaScript files with UglifyJS
+  package_url: https://www.npmjs.com/grunt-contrib-uglify
+  version: 0.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: alexandercastillo
+  last_updated_on: 2014-12-27 02:22:48.000000000 Z
+- name: grunt-karma
+  description: Grunt plugin for karma test runner
+  package_url: https://www.npmjs.com/grunt-karma
+  version: 0.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16328/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: alexandercastillo
+  last_updated_on: 2014-12-27 02:22:48.000000000 Z
+  vulnerabilities:
+  - name: Grunt-karma vulnerable to prototype pollution
+    cve_id: CVE-2022-37602
+    cve_url: https://github.com/advisories/GHSA-hcj4-xf6x-63wj
+    detected_date: Oct 20
+    severity: critical
+    first_patched: 
+- name: karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework
+  package_url: https://www.npmjs.com/karma-mocha
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: alexandercastillo
+  last_updated_on: 2014-12-27 02:22:48.000000000 Z
+- name: angular
+  description: Bower package for AngularJS
+  package_url: http://bower.io/angular
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/rongfengliang/angular-css/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Alex Castillo
+  last_updated_on: 2016-04-06 18:05:19.000000000 Z
